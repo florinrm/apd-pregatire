@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 
 public class ReentrantBarrierWithSemaphores {
-    private class Wrapper {
+    private static class Wrapper {
         private int count;
 
         public Wrapper(int count) {
