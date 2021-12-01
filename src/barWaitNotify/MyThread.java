@@ -1,7 +1,5 @@
 package barWaitNotify;
 
-import barSem.BarrierWithSemaphores;
-
 public class MyThread extends Thread {
     private final int id;
     private final BarrierWaitNotify barrier;

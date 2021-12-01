@@ -1,6 +1,5 @@
 package reentrantBarSem;
 
-import java.util.List;
 import java.util.concurrent.Semaphore;
 
 public class ReentrantBarrierWithSemaphores {
