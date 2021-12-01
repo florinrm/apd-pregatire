@@ -3,8 +3,6 @@ package ranksort;
 import java.util.concurrent.CyclicBarrier;
 
 public class Main {
-    public final static Object lock = new Object();
-
     public static void main(String[] args) throws InterruptedException {
         if (args.length < 2) {
             System.err.println("Insufficient arguments");

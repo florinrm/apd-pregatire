@@ -31,9 +31,7 @@ public class Task extends Thread {
         for (int i = start; i < end; i++) {
             for (int j = 0; j < size; j++) {
                 if (array[i] > array[j]) {
-                    synchronized (Main.lock) {
-                        rank[i]++;
-                    }
+                    rank[i]++;
                 }
             }
         }
