@@ -17,6 +17,8 @@ public class BarrierWithSemaphores {
         }
 
         if (countThreads == numberOfThreads) {
+            // semaphore.release(numberOfThreads);
+
             for (int i = 0; i < numberOfThreads; i++) {
                 semaphore.release();
             }
