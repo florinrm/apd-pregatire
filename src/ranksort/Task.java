@@ -30,7 +30,7 @@ public class Task extends Thread {
 
         for (int i = start; i < end; i++) {
             for (int j = 0; j < size; j++) {
-                if (array[i] > array[j]) {
+                if (array[i] > array[j] && i != j) {
                     rank[i]++;
                 }
             }
